@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 	"net/http"
-	"practice/go-practice/go-bookstore/pkg/routes"
+
+	"github.com/jatin510/go-practice/go-practice/go-bookstore/pkg/routes"
 
 	"github.com/gorilla/mux"
-	"github.com/jatin510/go-bookstore/package/routes"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
